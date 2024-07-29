@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fake-news"
+version = "0.1.0"
+description = ""
+authors = ["Michał Czyż <mike@c2yz.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tpot = "^0.12.2"
+scikit-learn = "^1.5.1"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+setuptools = "^71.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
